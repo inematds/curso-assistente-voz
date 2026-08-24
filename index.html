@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assistente de Voz — JARVIS, CASE &amp; CIA</title><meta name="description" content="Curso prático: construa assistentes de voz estilo JARVIS colando prompts no seu assistente de código.">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Course","name":"Assistente de Voz — JARVIS, CASE & CIA","description":"Curso prático: construa assistentes de voz estilo JARVIS colando prompts no seu assistente de código.","inLanguage":"pt-BR"}</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class',theme:{extend:{colors:{dark:{900:'#111111',800:'#1a1a1a',700:'#242424',600:'#333333',400:'#888888',300:'#bbbbbb',200:'#dddddd'},primary:'#FACC15'}}}}</script>
+<style>body{font-family:ui-sans-serif,system-ui,sans-serif}
+.light-mode { background:#f8fafc; color:#334155; }
+.light-mode .bg-dark-900{background:#f1f5f9}.light-mode .bg-dark-800{background:#ffffff}
+.light-mode .bg-dark-700{background:#e2e8f0}.light-mode .border-dark-700,.light-mode .border-dark-600,.light-mode .border-dark-800{border-color:#cbd5e1}
+.light-mode .text-white{color:#0f172a}.light-mode .text-dark-300,.light-mode .text-dark-200{color:#334155}
+.light-mode .text-dark-400{color:#64748b}</style>
+<script>if(localStorage.getItem('tema')==='light')document.documentElement.classList.add('light-mode');</script>
+</head>
+<body class="bg-dark-900 text-dark-200 min-h-screen flex flex-col">
+<nav class="sticky top-0 z-40 backdrop-blur bg-dark-900/90 border-b border-dark-700">
+<div class="max-w-5xl mx-auto px-4 h-14 flex items-center gap-4">
+<a href="#top" class="font-black text-white tracking-tight">⚡ ASSISTENTE<span class="text-primary">DE VOZ</span></a>
+<span class="text-dark-600 hidden sm:inline">|</span>
+          <a href="https://inema.club" target="_blank" rel="noopener" class="text-sky-400 hover:text-sky-300 text-sm font-medium hidden sm:inline">INEMA.CLUB</a>
+          <div class="hidden lg:flex items-center gap-2 overflow-x-auto ml-auto"><a href="trilha1-jarvis-voz/index.html" class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-emerald-400 transition whitespace-nowrap">🎙️ Seu JARVIS de Voz</a>
+<a href="trilha2-case-tars/index.html" class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-blue-400 transition whitespace-nowrap">🤖 CASE — Funcionário de IA</a>
+<a href="trilha3-debate-show/index.html" class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-purple-400 transition whitespace-nowrap">⚔️ Debate JARVIS vs TARS</a>
+<a href="trilha4-ligacoes/index.html" class="text-xs px-3 py-1.5 rounded-full border border-dark-600 hover:border-rose-400 transition whitespace-nowrap">☎️ JARVIS Faz Ligações</a></div>
+<button id="toggleTema" class="ml-4 text-lg" title="Alternar tema">🌗</button>
+</div></nav>
+<main class="flex-1 max-w-5xl w-full mx-auto px-4 py-8">
+
+<section id="top" class="text-center py-12 bg-gradient-to-b from-dark-800 to-dark-900 rounded-3xl border border-dark-700 mb-10 px-4">
+<p class="text-xs tracking-[0.25em] text-primary font-bold mb-3">TRILHA 3 DO WORKSHOP · IA DE VOZ</p>
+<h1 class="text-4xl md:text-5xl font-black text-white mb-4">Construa seu <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-orange-400">Assistente de Voz</span></h1>
+<p class="text-dark-300 max-w-2xl mx-auto mb-8">Galáxia de conhecimento 3D que conversa, robô de mesa que executa missões, debate entre duas IAs e um agente que faz ligações de verdade. Tudo colando prompts, sem programar.</p>
+
+<div class="grid grid-cols-3 gap-4 max-w-md mx-auto">
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">4</div><div class="text-xs text-dark-400">trilhas</div></div>
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">23</div><div class="text-xs text-dark-400">módulos</div></div>
+<div class="bg-dark-800/80 rounded-xl p-4 border border-dark-700"><div class="text-2xl font-black text-primary">4</div><div class="text-xs text-dark-400">projetos de voz</div></div>
+</div>
+</section>
+<div class="grid md:grid-cols-2 gap-5"><a href="trilha1-jarvis-voz/index.html" class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-emerald-400 transition">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">🎙️</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-emerald-400 font-medium">Prompts · 7 módulos</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-emerald-400 transition">Seu JARVIS de Voz</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">6 prompts que constroem um segundo cérebro falante com galáxia 3D de notas.</p>
+<span class="text-xs text-emerald-400 font-semibold">Abrir trilha →</span></a>
+<a href="trilha2-case-tars/index.html" class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-blue-400 transition">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">🤖</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-blue-400 font-medium">Prompts · 7 módulos</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-blue-400 transition">CASE — Funcionário de IA</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">Robô de desktop com voz que executa missões reais em segundo plano.</p>
+<span class="text-xs text-blue-400 font-semibold">Abrir trilha →</span></a>
+<a href="trilha3-debate-show/index.html" class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-purple-400 transition">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">⚔️</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-purple-400 font-medium">Show · 5 módulos</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-purple-400 transition">Debate JARVIS vs TARS</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">Duas IAs debatem em personagem enquanto você julga — pronto para tonight.</p>
+<span class="text-xs text-purple-400 font-semibold">Abrir trilha →</span></a>
+<a href="trilha4-ligacoes/index.html" class="group bg-dark-800 border border-dark-700 rounded-2xl p-6 hover:border-rose-400 transition">
+<div class="flex items-start justify-between mb-3"><span class="text-3xl">☎️</span>
+<span class="text-xs px-2 py-1 rounded-full bg-dark-700 text-rose-400 font-medium">Agentes de voz · 4 módulos</span></div>
+<h2 class="text-xl font-bold text-white mb-2 group-hover:text-rose-400 transition">JARVIS Faz Ligações</h2>
+<p class="text-sm text-dark-400 leading-relaxed mb-4">Scripts de agente telefônico: reservas, consultas e o motor de faturas.</p>
+<span class="text-xs text-rose-400 font-semibold">Abrir trilha →</span></a></div>
+</main>
+<footer class="border-t border-dark-700 mt-16 py-8 text-center text-sm text-dark-400">
+<p>Material de estudo traduzido para fins educacionais.</p>
+<p class="mt-2"><a href="https://inema.club" class="text-primary hover:underline">INEMA.CLUB</a></p>
+</footer>
+<script>
+document.getElementById('toggleTema').addEventListener('click',()=>{
+const el=document.documentElement;el.classList.toggle('light-mode');
+localStorage.setItem('tema',el.classList.contains('light-mode')?'light':'dark');});
+</script>
+</body></html>
